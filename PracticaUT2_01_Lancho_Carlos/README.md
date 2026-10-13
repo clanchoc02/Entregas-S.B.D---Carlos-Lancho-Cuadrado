@@ -1,6 +1,6 @@
 # Práctica 01: Modelado, Validación, Optimización y Seguridad en MongoDB
 
-**Módulo:** Bases de Datos NoSQL  
+**Módulo:** Sistemas Big Data
 **Escenario Seleccionado:** Catálogo de Comercio Electrónico Heterogéneo con Variantes, Stock y Reseñas  
 **Versión de MongoDB:** 7.0 / 8.0 (MongoDB Atlas / mongosh 2.x)
 
