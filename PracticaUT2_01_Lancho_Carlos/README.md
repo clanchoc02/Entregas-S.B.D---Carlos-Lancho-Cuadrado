@@ -1,6 +1,6 @@
 # Práctica 01: Modelado, Validación, Optimización y Seguridad en MongoDB
 
-**Módulo:** Sistemas Big Data
+**Módulo:** Sistemas Big Data  
 **Escenario Seleccionado:** Catálogo de Comercio Electrónico Heterogéneo con Variantes, Stock y Reseñas  
 **Versión de MongoDB:** 7.0 / 8.0 (MongoDB Atlas / mongosh 2.x)
 
@@ -77,4 +77,3 @@ Todas las evidencias requeridas por la rúbrica se encuentran archivadas en la c
 * **Captura 4:** Rechazo atómico de inserción por `$jsonSchema` (`Document failed validation`).
 * **Capturas 5 y 6:** Planes de ejecución `explain("executionStats")` demostrando la transición de `COLLSCAN` + `SORT` a `IXSCAN` + `FETCH`.
 * **Capturas 7 a 10:** Salidas de operaciones CRUD, paginación determinista, unión `$lookup` y agregación multifacética con `$facet`.
-* **Captura 11:** Salida en consola de respaldo y restauración con reemplazo (`--drop`).
